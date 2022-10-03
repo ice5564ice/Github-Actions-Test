@@ -2,12 +2,12 @@ name: hello Ice
 on: push
 jobs: 
   first-job:
-    run-on: ubuntu-latest
+    runs-on: ubuntu-latest
     steps: 
       - name: first-step
         run: echo "Hello It's me!"
   second-job:
-    run-on: ubuntu-latest
+    runs-on: ubuntu-latest
     steps: 
       - name: first-step
         run: echo "my name is Ice."
